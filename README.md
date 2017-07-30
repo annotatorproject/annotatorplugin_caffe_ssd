@@ -1,2 +1,3 @@
 # annotatorplugin_caffe_ssd
-Plugin linking SSD branch of caffe
+Plugin for Annotator using ssd branch of caffe.
+https://github.com/weiliu89/caffe/tree/ssd
