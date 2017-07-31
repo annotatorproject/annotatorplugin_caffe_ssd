@@ -86,7 +86,7 @@ std::vector<shared_ptr<Commands::Command>> SSD::getCommands() {
           shared_ptr<Commands::NewAnnotation> nA =
               std::make_shared<Commands::NewAnnotation>(
                   objectId, labelClass, project->getSession(), this->frame,
-                  xmin, ymin, width, height, score);
+                  xmin, ymin, width, height, score, false);
           commands.push_back(nA);
         }
       }
